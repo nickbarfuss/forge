@@ -1,0 +1,28 @@
+nav {
+	background: $ui_1_base;
+	border-bottom: 1px solid $ui_1_light;
+}
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	max-height: 100px;
+	min-height: 100px;
+}
+nav ul li {
+    
+}
+nav ul li a {
+	display: flex;
+	padding: 3rem 3rem;
+	color: rgba(255,255,255,1);
+}
+nav div {
+	width: 50px;
+	height: 3px;	
+	background: $ui_2_base;
+	position: relative;
+	bottom: 0em;
+	left: 0em;
+}

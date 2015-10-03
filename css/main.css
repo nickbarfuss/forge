@@ -40,3 +40,82 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+body {
+  font-family: base;
+  font-size: 1em;
+  line-height: 100%;
+  background: #1a1f23;
+  color: white; }
+
+a {
+  color: #00aaee; }
+
+@font-face {
+  font-family: "icon";
+  src: url("../font/Icon-Regular.otf");
+  font-weight: normal;
+  font-style: normal; }
+.icn span {
+  display: none; }
+
+.icn:before {
+  font-family: "icon";
+  margin-right: .3em;
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none; }
+
+.icn_temp:before {
+  content: "\E001"; }
+
+@font-face {
+  font-family: "base";
+  src: url("../font/TitilliumText25L-250wt.otf");
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased; }
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.grid_cell {
+  flex: 1; }
+
+#hud {
+  background: black;
+  padding: 12px 25px 12px 25px; }
+
+#hud_cta {
+  text-align: right;
+  color: #00aaee;
+  text-transform: uppercase;
+  font-size: .9em; }
+
+nav {
+  background: #1e2527;
+  border-bottom: 1px solid #262f32; }
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  max-height: 100px;
+  min-height: 100px; }
+
+nav ul li a {
+  display: flex;
+  padding: 3rem 3rem;
+  color: white; }
+
+nav div {
+  width: 50px;
+  height: 3px;
+  background: #00aaee;
+  position: relative;
+  bottom: 0em;
+  left: 0em; }

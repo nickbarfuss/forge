@@ -1,0 +1,26 @@
+//icon
+@font-face {
+	font-family: "icon";
+	src:url("../font/Icon-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+//icon core
+.icn { }
+.icn span {
+	display: none;	
+}
+.icn:before { 
+	font-family: "icon";
+	margin-right: .3em;	
+	text-decoration: inherit;
+	display: inline-block;
+	speak: none;
+}
+
+//icon types
+.icn_temp:before { content: "\E001"; }
+
+
+
